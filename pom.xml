@@ -29,6 +29,18 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+				<cloudHubDeployment>
+				<muleVersion>4.3.0</muleVersion>
+				<username>anyagupta2304</username>
+				<password>Ankit@12345</password>
+				<environment>Sandbox</environment>
+				<objectStoreV2>true</objectStoreV2>
+				<applicationName>world-demo-cicd-ankit</applicationName>
+				<workers>1</workers>
+				<workerType>Micro</workerType>
+				</cloudHubDeployment>  	
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
